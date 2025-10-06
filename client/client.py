@@ -2,7 +2,7 @@ import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server_adress = ('158.160.182.123', 8888)
+server_adress = ('158.160.182.123', 8889)
 client_socket.connect(server_adress)
 
 try:
