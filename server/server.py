@@ -2,7 +2,7 @@ import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server_adress = ('localhost', 8888)
+server_adress = ('0.0.0.0', 8888)
 server_socket.bind(server_adress)
 
 server_socket.listen(1)
