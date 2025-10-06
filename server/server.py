@@ -2,7 +2,7 @@ import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server_adress = ('158.160.182.123', 8889)
+server_adress = ('', 8889)
 server_socket.bind(server_adress)
 
 server_socket.listen(1)
